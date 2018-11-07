@@ -22,6 +22,9 @@ Feel free to add or vary the questions.
 
 
 ## Basic BRSKI
+
+https://trac.ietf.org/trac/int/wiki/EnrollmentRoadmap has a document on how current IETF standards track work relates.
+
 ### How does device introduce itself to the infrastructure or peer?
 
 A manufacturer certificate and trust anchor is installed in the device at build time.  During onboarding, that information is passed to a join registrar, which adds additional information and passes it to the manufacturer authorized signing authority (MASA), which then returns a voucher.
